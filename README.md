@@ -23,6 +23,7 @@ Linked data web application providing a georeferenced visualization of UBC Open 
 - The latitude values are in the “http://www.w3.org/2003/01/geo/wgs84_pos#lat” column. We have to change their formatting to numbers so CARTO can understand them:
 
     `"54 13"@en  >  54.13`
+
     `"0 30 S"@en  >  -0.3 (Latitudes south of the equator have negative values)`
 
 - Create a new column “test” based on the column “http://www.w3.org/2003/01/geo/wgs84_pos#lat” using the following expression to remove any character and preserve only digits and blank spaces (keeping the spaces is important for placing the decimal points later):
@@ -74,6 +75,7 @@ Linked data web application providing a georeferenced visualization of UBC Open 
 - The fish species are in the “http://purl.org/dc/terms/subject” column. To get better reconciliation results, we have to remove the double quotes, the “@en”, the “sp.” and keep just the species name inside the square brackets (when it exists):
 
   `"Agonus acipenerinus [Agonus accipenserinus]"@en  >  Agonus acipenerinus`
+  
   `"Ambassis sp."@en  >  Ambassis`
 
 - Create a new column “species” based on the column “http://purl.org/dc/terms/subject”, using the following expression:
