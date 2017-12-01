@@ -16,14 +16,14 @@ Linked data web application providing a georeferenced visualization of UBC Open 
 
 - Merge files using the following python script. The folder containing the files to me merged has to be named “fisheries” and the script has to be run from the same folder the folder fisheries is in:
 
-``#adapted from: https://stackoverflow.com/questions/17749058/combine-multiple-text-files-into-one-text-file-using-python
+`#adapted from: https://stackoverflow.com/questions/17749058/combine-multiple-text-files-into-one-text-file-using-python
 
 import glob
 read_files = glob.glob("fisheries/*.txt")
 with open("result.txt", "wb") as outfile:
         for f in read_files:
                 with open(f, "rb") as infile:
-                        outfile.write(infile.read())``
+                        outfile.write(infile.read())`
 
 - Convert merged file obtained to a tabular format. Import project in Open Refine using the RDF/N3 files option. No character encoding selection is needed.
 
