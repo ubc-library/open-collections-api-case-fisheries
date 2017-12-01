@@ -8,7 +8,7 @@ Linked data web application providing a georeferenced visualization of UBC Open 
 
 ### How to do it:
 
-####Modeling
+#### Modeling
 
 - Download collection metadata using the Open Collections Research API. A php script to batch download is provided at OC API Documentation page > Download Collection Data.. This script returns a folder containing one RDF file per collection item (or XML, JSON, any format preferred). We are going to use N-triples because the file is cleaner (no headers or footers), what makes the merging easier later. Edit the script following the instructions on the documentation page and run it using the command:
 
@@ -27,7 +27,7 @@ with open("result.txt", "wb") as outfile:
 
 - Convert merged file obtained to a tabular format. Import project in Open Refine using the RDF/N3 files option. No character encoding selection is needed.
 
-####Cleaning
+#### Cleaning
 
 - The latitude values are in the “http://www.w3.org/2003/01/geo/wgs84_pos#lat” column. We have to change their formatting to numbers so CARTO can understand them:
 
@@ -103,7 +103,7 @@ with open("result.txt", "wb") as outfile:
   - latitude_number
   - longitude_number
 
-####Reconciling
+#### Reconciling
 
 - On the “species” column, select “Reconcile” > “Start Reconciling” > “Add standard service”. Paste the following URL* in the box, then click “Add Service”:
 
@@ -131,7 +131,7 @@ The Encyclopedia of Life (EOL) taxonomy reconciliation service to Open Refine wa
 
 `"http://eol.org/pages/"+value`
 
-####Building interface
+#### Building interface
 
 - Prepare the data to interface. In order to have links on CARTO interface, we have to add html tags in the source dataset.
 
