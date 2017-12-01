@@ -4,7 +4,7 @@ Linked data web application providing a georeferenced visualization of UBC Open 
 
 [Link for the application on CARTO.](https://open.library.ubc.ca/collections/fisheries)
 
-![fisheries.gif](https://github.com/carolamigo/ubc_carto_fisheries/blob/master/fisheries.gif)
+![fisheries.gif](https://carolamigo.carto.com/builder/df748d01-2fc8-424b-ae46-dfd834b200a0/embed)
 
 ### How to do it:
 
