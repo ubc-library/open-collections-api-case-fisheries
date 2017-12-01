@@ -2,9 +2,9 @@
 
 Linked data web application providing a georeferenced visualization of UBC Open Collection Institute of Fisheries Field Records metadata, linked to [Geonames](http://www.geonames.org/ontology/documentation.html) and [Encyclopedia of Life](http://eol.org/).
 
-[Link for the application on CARTO.](https://open.library.ubc.ca/collections/fisheries)
+[Link for the application on CARTO.](https://carolamigo.carto.com/builder/df748d01-2fc8-424b-ae46-dfd834b200a0/embed)
 
-![fisheries.gif](https://carolamigo.carto.com/builder/df748d01-2fc8-424b-ae46-dfd834b200a0/embed)
+![fisheries.gif](https://github.com/carolamigo/ubc_carto_fisheries/blob/master/fisheries.gif)
 
 ### How to do it:
 
