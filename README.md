@@ -1,6 +1,6 @@
 # [UBC Institute of Fisheries Field Records](https://open.library.ubc.ca/collections/fisheries)
 
-Linked data web application providing a georeferenced visualization of UBC Open Collection Institute of Fisheries Field Records metadata, linked to [Geonames](http://www.geonames.org/ontology/documentation.html) and [Encyclopedia of Life](http://eol.org/).
+Linked data web application providing a georeferenced visualization of UBC Open Collection Institute of Fisheries Field Records metadata, linked to [Encyclopedia of Life](http://eol.org/).
 
 [Link for the application on CARTO.](https://carolamigo.carto.com/builder/df748d01-2fc8-424b-ae46-dfd834b200a0/embed)
 
